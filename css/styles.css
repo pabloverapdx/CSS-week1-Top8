@@ -5,3 +5,65 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+.main-content {
+  border: solid 1px orange;
+  height: 1200px;
+  width: 1600px;
+  /*padding: 32px;*/
+}
+
+.header {
+    background-color: orange;
+    color:white;
+    text-align:left;
+    padding:5px;
+    height: 50px;
+    width: 100%
+}
+
+h3 {
+  padding: 0 10px 0 10px;
+}
+
+.friends {
+  float: left;
+  width: 100%;
+  padding: 38px;
+}
+
+h2 {
+  text-align: right;
+  padding-right: 20px;
+  color: #ff3000;
+}
+
+#number-friends {
+  color: #ff3000;
+}
+
+img {
+  margin: 0 15px 15px 0;
+  border: 1px solid blue;
+  margin-bottom: 70px;
+}
+
+.online {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+}
+
+h4  {
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+}
+
+.clearboth {
+  clear: both;
+}
